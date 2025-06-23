@@ -29,7 +29,7 @@
         <small id="email-desc">Please enter a valid email.</small>
 
         <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567" autocomplete="tel" pattern="^\+?\d{1,3}?[- .]?\(?\d{1,4}?\)?[- .]?\d{1,4}[- .]?\d{1,9}$" aria-describedby="phone-desc" />
+        <input type="tel" id="phone" name="phone" placeholder="09xx xxxx xxx" autocomplete="tel" pattern="^\+?\d{1,3}?[- .]?\(?\d{1,4}?\)?[- .]?\d{1,4}[- .]?\d{1,9}$" aria-describedby="phone-desc" />
         <small id="phone-desc">Enter a valid phone number.</small>
 
         <label for="password">Password</label>

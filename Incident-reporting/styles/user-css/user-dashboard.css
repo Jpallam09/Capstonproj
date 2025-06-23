@@ -275,6 +275,30 @@
       opacity: 0.5;
     }
 
+    #viewBtn, #editBtn, #deleteBtn {
+      padding: 0.3rem 0.8rem;
+      font-size: 0.75rem;
+      border: none;
+      border-radius: 0.25rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin: 0 2px;
+      color: white;
+    }
+    #viewBtn {
+      background-color: #3b82f6;
+    }
+    #editBtn {
+      background-color: #f59e0b;
+    }
+    #deleteBtn {
+      background-color: #ef4444;
+    }
+    #viewBtn:hover, #editBtn:hover, #deleteBtn:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
     /* Responsive adjustments */
     @media (max-width: 900px) {
       .metrics-grid {

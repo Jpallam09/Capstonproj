@@ -69,8 +69,23 @@
             <th role="columnheader" tabindex="0" aria-sort="none" data-key="actions">Actions</th>
           </tr>
         </thead>
+        
         <tbody>
-          <!-- Rows rendered by JS -->
+          <tr>
+            <td>1</td>
+            <td>Sample Title</td>
+            <td>2025-06-23</td>
+            <td>Type A</td>
+            <td><span class="status status-open">Open</span></td>
+            <td>
+              <div class="btn-group">
+                <button class="btn-view">View</button>
+                <button class="btn-edit">Edit</button>
+                <button class="btn-delete">Delete</button>
+              </div>
+            </td>
+          </tr>
+          <!-- More rows -->
         </tbody>
       </table>
     </div>

@@ -31,7 +31,7 @@
 
         <label for="bio">Bio</label>
         <textarea id="bio" name="bio" rows="4" required>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
-
+        
         <div class="button-container">
             <button type="button" class="back-button" onclick="window.location.href='user-dashboard.php';">Back to Dashboard</button>
             <button type="submit" class="save-button">Save Changes</button>

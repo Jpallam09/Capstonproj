@@ -1,13 +1,14 @@
 <?php
-$servername = "localhost";
-$username = "username";
-$password = "password";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password);
+$host = "localhost";
+$username ="root";
+$password = "";
+$database = "database_caps";
 
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+$con = new mysqli ($host, $username, $password, $database);
+
+if ($con->connect_error) {
+  die("Connection failed: " . $con->connect_error);
 }
-echo "Wassup Bugok";
+echo "Connected successfully";
+?>
